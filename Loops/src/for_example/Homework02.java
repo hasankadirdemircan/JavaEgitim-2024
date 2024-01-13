@@ -19,7 +19,5 @@ public class Homework02 {
         }
 
         System.out.println(sayi +" 'den' 1'e kadar olan çift sayıların sayısı: " + ciftSayac);
-
-
     }
 }
