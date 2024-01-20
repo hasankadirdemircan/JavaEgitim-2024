@@ -7,11 +7,10 @@ import java.util.Random;
 public class PublicAccessSpecifiersExample01 {
     public static void main(String[] args) {
         Random random = new Random();
-        random.nextInt(50); // java.util paketindeki nextInt methoduna erişebildim.
+        int randomInt = random.nextInt(50); // java.util paketindeki nextInt methoduna erişebildim.
 
         StaticMethodExample02 staticMethodExample02 = new StaticMethodExample02();
         staticMethodExample02.topla(5, 10);
-
         StaticMethodExample02.cikar(10, 7);
 
 

@@ -5,6 +5,7 @@ import protected_example.ProtectedMethodExample;
 public class ProtectedAccessSpecifiersExample01 {
     public static void main(String[] args) {
         ProtectedMethodExample protectedMethodExample = new ProtectedMethodExample();
+        protectedMethodExample.sayHello();
         //System.out.println(protectedMethodExample.topla(5,3));
         //erişemiyorum çünkü protected olan bir method farklı bir paket altında ise
         // kullanmak için, kalıtım(extends) edilmesi gerekir -> ileride göreceğiz.
