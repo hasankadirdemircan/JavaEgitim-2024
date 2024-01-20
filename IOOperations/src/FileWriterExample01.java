@@ -6,7 +6,6 @@ import java.io.IOException;
 public class FileWriterExample01 {
     public static void main(String[] args) throws IOException {
         FileWriter fileWriter = null;
-        String kullanici = "";
 
         String fileName = "first_file.txt";
         try {
