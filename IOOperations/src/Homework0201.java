@@ -18,7 +18,7 @@ public class Homework0201 {
         int n = 2;
         int sayac = 0;
         String girilenSayi;
-        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(dosyaIsim, true))) {
+        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(dosyaIsim))) {
             for (int i=1; i<=n; i++){
                 System.out.println(i + ". sayıyı giriniz: ");
                 girilenSayi = scanner.nextLine();
@@ -30,7 +30,6 @@ public class Homework0201 {
             System.out.println("hata meydana geldi. " + ioException);
         }
 
-
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader(dosyaIsim))) {
             String data;
             while((data = bufferedReader.readLine()) != null) {
@@ -40,7 +39,7 @@ public class Homework0201 {
         }catch (IOException ioException) {
             System.out.println("hata meydana geldi. " + ioException);
         }
-        
+
         System.out.println("toplam : " + toplam);
         System.out.println("ortalama : " + toplam / sayac);
     }
