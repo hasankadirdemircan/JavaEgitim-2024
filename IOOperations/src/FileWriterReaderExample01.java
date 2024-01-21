@@ -3,11 +3,11 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class FileWriterExample01 {
+public class FileWriterReaderExample01 {
     public static void main(String[] args) throws IOException {
         FileWriter fileWriter = null;
 
-        String fileName = "first_file.txt";
+        String fileName = "file_writer.txt";
         try {
             fileWriter = new FileWriter(fileName,false); // "first_file.txt", true -> default değeri false'dur.
             fileWriter.write("merhaba file");
