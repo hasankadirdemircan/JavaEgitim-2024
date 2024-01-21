@@ -1,3 +1,1 @@
-merhaba fileabc  
-nextlinee
-hohoho
+merhaba file
