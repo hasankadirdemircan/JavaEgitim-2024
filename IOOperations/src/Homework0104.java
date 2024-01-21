@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Homework04 {
+public class Homework0104 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("txt dosyasına eklemek istediklerinizi giriniz, boş metin girilirse uygulama kapanacaktır.");

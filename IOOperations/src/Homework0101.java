@@ -1,9 +1,7 @@
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
-public class Homework01 {
+public class Homework0101 {
     /*
     Ödev: Kullanıcı boş ifade girene kadar veya exit yazana kadar girdiği her yazıyı dosyaya yazınız
     daha sonra bu yazıyı okuyup ekrana basınız (System.println)
@@ -24,6 +22,16 @@ public class Homework01 {
             }
         } catch(IOException ioException) {
             System.out.println("hata : " +ioException.getMessage());
+        }
+
+        try(BufferedReader bufferedReader = new BufferedReader(new FileReader("homework.txt"))){
+            String data;
+            while ((data = bufferedReader.readLine()) != null){
+                System.out.println(data);
+            }
+
+        }catch (IOException ioException) {
+            System.out.println("hata : " + ioException.getMessage());
         }
     }
 

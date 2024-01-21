@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Homework03 {
+public class Homework0103 {
     public static void main(String[] args) {
 
         try (PrintWriter writer = new PrintWriter(new FileWriter("file.txt"))) {

@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Homework02 {
+public class Homework0102 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String girilen = "";
