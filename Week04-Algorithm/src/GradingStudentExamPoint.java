@@ -1,21 +1,21 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class GradingPoint {
+public class GradingStudentExamPoint {
     public static void main(String[] args) {
-        GradingPoint gradingPoint = new GradingPoint();
+        GradingStudentExamPoint gradingStudentExamPoint = new GradingStudentExamPoint();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kaç tane öğrenci puanı oluşturulsun?");
         int n = scanner.nextInt();
-        int[] grades = gradingPoint.generatePoints(n);
+        int[] grades = gradingStudentExamPoint.generateRandomStudentPoints(n);
 
-        int[] newGrades = gradingPoint.gradingStudents(grades);
+        int[] newGrades = gradingStudentExamPoint.gradingStudents(grades);
         for (int grade : newGrades) {
             System.out.println(grade);
         }
     }
 
-    public int[] generatePoints(int n) {
+    public int[] generateRandomStudentPoints(int n) {
         Random random = new Random();
         int[] grades = new int[n];
 
