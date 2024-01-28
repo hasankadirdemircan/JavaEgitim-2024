@@ -9,7 +9,6 @@ public class Main {
         System.out.println("myObject :" + myObject.x);
         Main myObject2 = new Main();
         System.out.println("myObject2 :" + myObject2.x);
-
         myObject.itemChancePercentage = 50;
     }
 }
