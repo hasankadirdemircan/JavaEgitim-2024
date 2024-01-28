@@ -1,4 +1,4 @@
-package constructor_examples.constructor_example02;
+package constructor_examples.constructor_example01;
 
 public class Employee {
 
