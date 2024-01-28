@@ -1,4 +1,4 @@
-package class_example01;
+package class_examples.class_example01;
 
 public class Dog {
 

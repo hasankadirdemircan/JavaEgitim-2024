@@ -1,4 +1,4 @@
-package class_example02;
+package class_examples.class_example02;
 
 public class LampMain {
 

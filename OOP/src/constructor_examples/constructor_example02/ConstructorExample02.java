@@ -1,4 +1,4 @@
-package constructor;
+package constructor_examples.constructor_example02;
 
 public class ConstructorExample02 {
 

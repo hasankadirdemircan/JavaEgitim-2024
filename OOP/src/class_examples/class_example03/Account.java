@@ -1,4 +1,4 @@
-package class_example03;
+package class_examples.class_example03;
 
 public class Account {
 

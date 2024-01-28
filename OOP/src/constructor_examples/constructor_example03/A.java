@@ -1,9 +1,9 @@
-package constructor;
+package constructor_examples.constructor_example03;
 
 public class A {
 
     B b;
-    public A() {
+    A() { //protected
         System.out.println("Hello I'm a constructor of A");
       //  b = new B();
         b = new B();

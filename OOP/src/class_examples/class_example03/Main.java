@@ -1,6 +1,4 @@
-package class_example03;
-
-import java.util.Random;
+package class_examples.class_example03;
 
 public class Main {
     public static void main(String[] args) {
