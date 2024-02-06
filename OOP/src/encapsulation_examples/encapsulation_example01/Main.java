@@ -1,9 +1,10 @@
 package encapsulation_examples.encapsulation_example01;
 
-import encapsulation_examples.encapsulation_example01.Customer;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static int main(String[] args) {
+
         Customer customer = new Customer();
         customer.setBudget(500);
         customer.setId(1);
@@ -15,5 +16,6 @@ public class Main {
 
         customer.setBudget(10000);
         System.out.println(customer.getBudget());
+
     }
 }
