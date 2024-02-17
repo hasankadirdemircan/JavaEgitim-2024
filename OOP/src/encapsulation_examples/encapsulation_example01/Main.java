@@ -3,7 +3,7 @@ package encapsulation_examples.encapsulation_example01;
 import java.util.Scanner;
 
 public class Main {
-    public static int main(String[] args) {
+    public static void main(String[] args) {
 
         Customer customer = new Customer();
         customer.setBudget(500);
