@@ -3,6 +3,8 @@ package encapsulation_examples.encapsulation_example01;
 import java.util.Scanner;
 
 public class Main {
+    private int size = 10;
+
     public static void main(String[] args) {
 
         Customer customer = new Customer();
