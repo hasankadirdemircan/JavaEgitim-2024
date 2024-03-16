@@ -1,0 +1,24 @@
+
+7
+java:S1220""Move this file to a named package.8Þÿ‘¡à1
+Y
+java:S1854"<Remove this useless assignment to local variable "hashmap3".(˜Ýçº8æÿ‘¡à1
+Y
+java:S1854"<Remove this useless assignment to local variable "hashmap2".(¦¼è8æÿ‘¡à1
+^
+java:S1854"<Remove this useless assignment to local variable "hashmap1".(â¼¿÷þÿÿÿÿ8æÿ‘¡à1
+\
+java:S1854":Remove this useless assignment to local variable "custom".(®üö«þÿÿÿÿ8æÿ‘¡à1
+]	java:S125"<This block of commented-out lines of code should be removed.(ì†ˆ¹ùÿÿÿÿ8çÿ‘¡à1
+M
+java:S1481"+Remove this unused "custom" local variable.(®üö«þÿÿÿÿ8èÿ‘¡à1
+O
+java:S1481"-Remove this unused "hashmap1" local variable.(â¼¿÷þÿÿÿÿ8èÿ‘¡à1
+J
+java:S1481"-Remove this unused "hashmap2" local variable.(¦¼è8èÿ‘¡à1
+J
+java:S1481"-Remove this unused "hashmap3" local variable.(˜Ýçº8éÿ‘¡à1
+]	java:S125"<This block of commented-out lines of code should be removed.(ƒ‚Çüÿÿÿÿ8éÿ‘¡à1
+L	java:S106+"+Replace this use of System.out by a logger.(Î­¢üÿÿÿÿ8êÿ‘¡à1
+]	java:S125,"<This block of commented-out lines of code should be removed.(¼™äòüÿÿÿÿ8êÿ‘¡à1
+E	java:S108-")Either remove or fill this block of code.(”ý¾8êÿ‘¡à1

@@ -1,4 +1,5 @@
-import java.lang.reflect.InvocationTargetException;
+package generics_overview;
+
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,11 +26,11 @@ public class Main {
         main.getName(new Model("z", "x", "w", "y"));
     }
 /*
-    public void getName(Key classValue) {
+    public void getName(generics_overview.Key classValue) {
         System.out.println("name : "+ classValue.getName());
     }
 
-    public void getName(Model classValue) {
+    public void getName(generics_overview.Model classValue) {
         System.out.println("name : ");
     }
 */

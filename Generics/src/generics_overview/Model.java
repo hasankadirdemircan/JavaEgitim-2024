@@ -1,3 +1,5 @@
+package generics_overview;
+
 public class Model {
 
     public Model(String name, String weight, String height, String color) {
