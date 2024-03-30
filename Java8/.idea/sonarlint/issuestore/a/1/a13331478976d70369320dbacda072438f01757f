@@ -1,0 +1,11 @@
+
+W
+java:S1854":Remove this useless assignment to local variable "result".(¹Ÿš¶8ï°“öè1
+>
+java:S3864"!Remove this use of "Stream.peek".(é¾•»8…Éöè1
+C
+java:S3864	"!Remove this use of "Stream.peek".(¼õõƒùÿÿÿÿ8…Éöè1
+L	java:S106	"+Replace this use of System.out by a logger.(¼õõƒùÿÿÿÿ8†Éöè1
+G	java:S106"+Replace this use of System.out by a logger.(é¾•»8†Éöè1
+H
+java:S1481"+Remove this unused "result" local variable.(¹Ÿš¶8ò°“öè1

@@ -1,0 +1,10 @@
+
+}
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(¥ÑÇŠÿÿÿÿÿ8à´×òè1
+m
+java:S1612"KReplace this lambda with method reference 'Utility::calculateLengthOfTemp'.(¥ÑÇŠÿÿÿÿÿ8ª‰Ùòè1
+L	java:S106	"+Replace this use of System.out by a logger.(ÛÑ»Šıÿÿÿÿ8öÏ×òè1
+]	java:S125"<This block of commented-out lines of code should be removed.(—ƒƒÀüÿÿÿÿ8â´×òè1
+x
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(üêë8á´×òè1
+G	java:S106"+Replace this use of System.out by a logger.(à°İÑ8·öØòè1

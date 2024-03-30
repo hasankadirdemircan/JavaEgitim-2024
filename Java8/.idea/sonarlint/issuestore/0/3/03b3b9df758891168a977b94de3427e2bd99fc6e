@@ -1,0 +1,6 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(ÌÎÚİ8œÚÁ÷è1
+]	java:S125"<This block of commented-out lines of code should be removed.(«ÚĞÌûÿÿÿÿ8ÚÁ÷è1
+G	java:S106"+Replace this use of System.out by a logger.(ˆç°Ú8˜€Â÷è1
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ÚÁ÷è1

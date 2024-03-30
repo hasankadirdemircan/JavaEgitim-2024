@@ -1,0 +1,16 @@
+
+X
+java:S1854";Remove this useless assignment to local variable "compose".(£€ε8ΤÒ”σθ1
+~
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'UnaryOperator<Integer>'(ΜΨσψÿÿÿÿ8ΦÒ”σθ1
+x
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(£€ε8ΦÒ”σθ1
+I
+java:S1481",Remove this unused "compose" local variable.(£€ε8ΧÒ”σθ1
+L	java:S106"+Replace this use of System.out by a logger.(»σΧ“ÿÿÿÿÿ8ΧÒ”σθ1
+G	java:S106"+Replace this use of System.out by a logger.(αρΑ·8ΧÒ”σθ1
+}
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(Ϊϋ‹ήϊÿÿÿÿ8ΧÒ”σθ1
+L	java:S106"+Replace this use of System.out by a logger.(ΏΔΙνϊÿÿÿÿ8ΨÒ”σθ1
+L	java:S106"+Replace this use of System.out by a logger.(ικÒ―ωÿÿÿÿ8δ®•σθ1
+L	java:S106"+Replace this use of System.out by a logger.(ΉΖ¤Τωÿÿÿÿ8ργυθ1

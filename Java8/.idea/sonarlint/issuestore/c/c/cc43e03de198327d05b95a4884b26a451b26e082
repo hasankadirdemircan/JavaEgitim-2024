@@ -1,0 +1,14 @@
+
+`
+java:S1854"CRemove this useless assignment to local variable "lengthFunction2".(Öú«‚8Û¤¯òè1
+}
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(¾Ç¦ùÿÿÿÿ8Ì·®òè1
+x
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(Öú«‚8ß¤¯òè1
+^
+java:S1612"AReplace this lambda with method reference 'CharSequence::length'.(Öú«‚8ß¤¯òè1
+Q
+java:S1481"4Remove this unused "lengthFunction2" local variable.(Öú«‚8ß¤¯òè1
+L	java:S106"+Replace this use of System.out by a logger.(›êŞÂúÿÿÿÿ8©ü±òè1
+G	java:S106"+Replace this use of System.out by a logger.(àÓ¨¨8ªü±òè1
+L	java:S106"+Replace this use of System.out by a logger.(…ÚÇˆıÿÿÿÿ8ªü±òè1

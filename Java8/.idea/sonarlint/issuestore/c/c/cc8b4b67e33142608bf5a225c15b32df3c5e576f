@@ -1,0 +1,11 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(ÖÅ€¶8ğ†²ôè1
+G	java:S106"+Replace this use of System.out by a logger.(‚ÎšÛ8ñ†²ôè1
+G	java:S106"+Replace this use of System.out by a logger.(¿å»ÿ8ñ†²ôè1
+G	java:S106"+Replace this use of System.out by a logger.(Å¸Ş8ñ†²ôè1
+]	java:S125"<This block of commented-out lines of code should be removed.( ¥àûÿÿÿÿ8ñ†²ôè1
+L	java:S106"+Replace this use of System.out by a logger.(ËÓ¹ùÿÿÿÿ8ò†²ôè1
+@
+java:S2119"Save and re-use this "Random".(µåİ‘øÿÿÿÿ8ò†²ôè1
+V
+java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8ßØÁôè1

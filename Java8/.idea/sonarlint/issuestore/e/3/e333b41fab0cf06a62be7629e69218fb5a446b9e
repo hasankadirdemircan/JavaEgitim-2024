@@ -1,0 +1,18 @@
+
+}
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(ëã¥Şûÿÿÿÿ8”ÔÂòè1
+`
+java:S1612">Replace this lambda with method reference 'Integer::parseInt'.(ëã¥Şûÿÿÿÿ8•ÔÂòè1
+}
+java:S4276	"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(Ç–Ã»üÿÿÿÿ8•ÔÂòè1
+L	java:S106"+Replace this use of System.out by a logger.(÷±Ë–ÿÿÿÿÿ8•ÔÂòè1
+G	java:S106"+Replace this use of System.out by a logger.(¸®­¦8•ÔÂòè1
+L	java:S106"+Replace this use of System.out by a logger.(ÈƒÙúøÿÿÿÿ8–ÔÂòè1
+s
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(ÚÛÜ©8–ÔÂòè1
+S
+java:S1612"6Replace this lambda with method reference 'Math::abs'.(ÚÛÜ©8–ÔÂòè1
+x
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(¿­ú³ÿÿÿÿÿ8–ÔÂòè1
+G	java:S106"+Replace this use of System.out by a logger.(½À©»8ˆÚÃòè1
+G	java:S106"+Replace this use of System.out by a logger.(ÅÛéâ8‰ÚÃòè1
