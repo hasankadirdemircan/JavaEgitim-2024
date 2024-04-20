@@ -1,0 +1,10 @@
+
+k
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ôä±şıÿÿÿÿ
+f
+java:S3655
+"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(³¢öæ
+J
+java:S3631"/Use "Arrays.stream" instead of "Arrays.asList".(ôä±şıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ä–¶ù
+E	java:S106"+Replace this use of System.out by a logger.(øõØúÿÿÿÿ

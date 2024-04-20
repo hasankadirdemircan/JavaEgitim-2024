@@ -1,0 +1,14 @@
+
+g	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÊÎòØï1
+7
+java:S1220""Move this file to a named package.8ËÎòØï1
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Â¬³ùÿÿÿÿ8èİÙï1
+d
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(Ò±­]8èİÙï1
+R
+java:S6437"6Revoke and change this password, as it is compromised.(Ò±­]8ÓÎòØï1
+G	java:S106"+Replace this use of System.out by a logger.(µùõË8ôÚùØï1
+L	java:S106"+Replace this use of System.out by a logger.(ÛĞ˜£üÿÿÿÿ8õÚùØï1
+L	java:S106"+Replace this use of System.out by a logger.(Ï¨ø÷øÿÿÿÿ8õÚùØï1
+L	java:S106"+Replace this use of System.out by a logger.(ÁîÄüÿÿÿÿ8›ìÿØï1

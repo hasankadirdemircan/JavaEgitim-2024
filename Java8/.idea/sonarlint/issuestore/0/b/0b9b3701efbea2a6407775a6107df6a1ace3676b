@@ -1,0 +1,15 @@
+
+v
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ‡¤8“Ÿé1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8–“Ÿé1
+K
+java:S2201")The return value of "count" must be used.(ó´±Íıÿÿÿÿ8ïúŸé1
+b
+java:S1612"@Replace this lambda with method reference 'this::processRecord'.(ó´±Íıÿÿÿÿ8ïúŸé1
+K
+java:S2201")The return value of "count" must be used.(ú”§®ÿÿÿÿÿ8ğúŸé1
+b
+java:S1612"@Replace this lambda with method reference 'this::processRecord'.(ú”§®ÿÿÿÿÿ8ğúŸé1
+]	java:S125("<This block of commented-out lines of code should be removed.(ˆ¨ÔÔÿÿÿÿÿ8ŸŠ¡Ÿé1
+L	java:S106+"+Replace this use of System.out by a logger.(”Ì¦Åûÿÿÿÿ8š“Ÿé1
