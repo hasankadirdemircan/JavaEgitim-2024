@@ -6,18 +6,14 @@ import java.sql.SQLException;
 
 public class Select {
     public static void main(String[] args) {
-        String jdbcUrl = "jdbc:postgresql://localhost:5432/firstdb";
-        String username = "postgres";
-        String password = "123456";
-
-        try {
-            //veritabanı bağlantı oluşturma
-            Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
-
+        PostgreDbConnection dbConnection = new PostgreDbConnection();
+        String selectSQL = "SELECT * FROM customers";
+        //veritabanı bağlantı oluşturma
+        try(Connection connection = dbConnection.getConnection();
+            PreparedStatement selectStatement = connection.prepareStatement(selectSQL)) {
             //SELECT işlemi
-            String selectSQL = "SELECT * FROM customers";
-            PreparedStatement selectStatement = connection.prepareStatement(selectSQL);
             ResultSet resultSet = selectStatement.executeQuery(); //SELECT
+
             while(resultSet.next()) {
                 //Db'den gelen sonuçları al
                 int customerId = resultSet.getInt("customer_id");
