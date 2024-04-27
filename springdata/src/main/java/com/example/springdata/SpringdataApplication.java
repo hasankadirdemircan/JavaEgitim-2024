@@ -2,6 +2,7 @@ package com.example.springdata;
 
 import com.example.springdata.model.Employee;
 import com.example.springdata.repository.EmployeeRepository;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@Transactional // ben bunu ekledim cünkü tek bir islemde birden fazla veritabanı işlemi yaptığımda,içlerinden en az 1 tanesi hata alırsa, diğer işlemleri de iptal etmeye yarıyor. Ek olarak DELETE, UPDATE gibi kendi sorgularım(JPQL) de gerekli.
 public class SpringdataApplication implements CommandLineRunner {
 
 	//TODO: Spring data projesi oluşturunuz, jdbc de verdiğim ve yapacağınız ödevi daha sonrasında Spring Data ile yapınız.
@@ -23,16 +25,24 @@ public class SpringdataApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		test();
-		//findAllEmployee();
+		//findEmployeeByFirstnameAndSurname();
+
 		//	findEmployeeById();
 		//	updateEmployeeById();
-        /*Employee employee = new Employee();
-		employee.setAddress("ankara etimesgut");
-		employee.setSurname("ronaldo");
-		employee.setFirstname("cristiano");
-		employee.setAge(29);
+    /*    Employee employee = new Employee();
+		employee.setAddress("xx etimesgut");
+		employee.setSurname("aa");
+		employee.setFirstname("bb");
+		employee.setAge(32);
 		employeeRepository.save(employee);*/
+		//findAllEmployee();
+		//deleteEmployeeById(552L);
+		//findAllEmployeeThenDelete();
+		//findEmployeeListByFirstnameAndSurname();
+
+	//deleteEmployeeByIdJPQL();
+		//updateEmployeeByIdNative();
+		getAllEmployeeNative();
 	}
 
 	public void findAllEmployee() {
@@ -44,7 +54,7 @@ public class SpringdataApplication implements CommandLineRunner {
 	}
 
 	public void findEmployeeById() {
-		Optional<Employee> employee = employeeRepository.findById(512L);
+		Optional<Employee> employee = employeeRepository.findById(452L);
 		//employee.ifPresent(System.out::println);
 		Employee e = employee.orElse(new Employee());
 		//	Employee e = employee.orElse(null);
@@ -54,16 +64,45 @@ public class SpringdataApplication implements CommandLineRunner {
 
 	public void updateEmployeeById() {
 		Employee employee = new Employee();
-		employee.setEmployeeId(342L);
-		employee.setAddress("ankara cankaya");
-		employee.setSurname("ronaldo11");
-		employee.setFirstname("cristiano");
+		employee.setEmployeeId(5512L);
+		employee.setAddress("ankxccara cankaya");
+		employee.setSurname("asdsadasd");
+		employee.setFirstname("qwe");
 		employee.setAge(29);
 		employeeRepository.save(employee);
 	}
 
-	public void test() {
-		List<Employee> employeeList = employeeRepository.findEmployeeByFirstnameAndSurname("c", "b");
+	public void findEmployeeByFirstnameAndSurname() {
+		List<Employee> employeeList = employeeRepository.findEmployeeByFirstnameAndSurname("bb", "aa");
+	//	List<Employee> asds = employeeRepository.findEmployee" ByFirstnameOrAddressAndAge("c", "b", 20);
 		System.out.println(employeeList.toString());
+	}
+
+	public void deleteEmployeeById(Long id) {
+		employeeRepository.deleteById(id);
+	}
+
+	public void findAllEmployeeThenDelete() {
+		List<Employee> employeeList = employeeRepository.findAll();
+		employeeList.stream().filter(e -> e.getEmployeeId().equals(452L)).forEach(e -> employeeRepository.delete(e));
+	}
+
+	public void findEmployeeListByFirstnameAndSurname() {
+		List<Employee> employeeList = employeeRepository.findEmployeeListByFirstnameAndSurname("bb", "aa");
+		employeeList.forEach(System.out::println);
+	}
+
+	public void deleteEmployeeByIdJPQL() {
+
+		employeeRepository.deleteEmployeeById(602L);
+	}
+
+	public void updateEmployeeByIdNative() {
+		employeeRepository.updateAddressForEmployee("abc", 652L);
+	}
+
+	public void getAllEmployeeNative() {
+		List<Employee> employeeList = employeeRepository.getAllEmployeeList();
+		employeeList.forEach(System.out::println);
 	}
 }

@@ -10,18 +10,18 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+
 @Entity
 @Table(name = "employee")
+@ToString
 @Getter
 @Setter
-@ToString
 public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "employee_id")
     private Long employeeId;
-
     private String firstname;
     private String surname;
     private int age;
