@@ -1,7 +1,9 @@
 package com.example.springdata;
 
+import com.example.springdata.model.CustomerOrderDTO;
 import com.example.springdata.model.Employee;
 import com.example.springdata.repository.EmployeeRepository;
+import com.example.springdata.repository.OrderRepository;
 import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
@@ -18,6 +20,9 @@ public class SpringdataApplication implements CommandLineRunner {
 
 	@Autowired
 	private EmployeeRepository employeeRepository;
+
+	@Autowired
+	private OrderRepository orderRepository;
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringdataApplication.class, args);
@@ -41,8 +46,10 @@ public class SpringdataApplication implements CommandLineRunner {
 		//findEmployeeListByFirstnameAndSurname();
 
 	//deleteEmployeeByIdJPQL();
-		//updateEmployeeByIdNative();
-		getAllEmployeeNative();
+		updateEmployeeByIdNative();
+		//getAllEmployeeNative();,
+
+		//customerOrderDto();
 	}
 
 	public void findAllEmployee() {
@@ -104,5 +111,10 @@ public class SpringdataApplication implements CommandLineRunner {
 	public void getAllEmployeeNative() {
 		List<Employee> employeeList = employeeRepository.getAllEmployeeList();
 		employeeList.forEach(System.out::println);
+	}
+
+	public void customerOrderDto() {
+		List<CustomerOrderDTO> orderDTOList = orderRepository.findOrderNameAndCustomerName();
+		orderDTOList.forEach(System.out::println);
 	}
 }
