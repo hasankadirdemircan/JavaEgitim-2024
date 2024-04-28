@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+//TODO: burada yapılan one to one anatosyon işlemi gibi sizde, derste anlattığım post- comment ilişkisi kullanara
+//ve internette araştırma yaparak one to many örneği yapınız.
+//
 @SpringBootApplication
 public class OneToOneApplication implements CommandLineRunner{
 
