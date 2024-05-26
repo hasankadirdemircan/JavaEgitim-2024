@@ -11,27 +11,28 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloWorldController {
 
-    @GetMapping("/sayHello")
-    public String sayHello() {
-        return "hello world!";
-    }
 
     @GetMapping("/sayBuenos")
     public String sayBuenos() {
         return "hello amigo!!";
     }
 
-    @PostMapping("/add")
+    @PostMapping("/add")    // C -> CREATE
     public String add() {
         return "added";
     }
 
-    @PutMapping("/update")
+    @GetMapping("/sayHello") // R -> READ
+    public String sayHello() {
+        return "hello world!";
+    }
+
+    @PutMapping("/update")  // U -> UPDATE
     public String update() {
         return "update";
     }
 
-    @DeleteMapping("/delete")
+    @DeleteMapping("/delete") // D -> DELETE
     public String delete() {
         return "delete";
     }
