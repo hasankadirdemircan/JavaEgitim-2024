@@ -1,6 +1,7 @@
 package com.example.crud.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import com.example.crud.helper.EmployeeHelper;
@@ -14,6 +15,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 public class EmployeeServiceTest {
@@ -54,7 +56,9 @@ public class EmployeeServiceTest {
 
         //assert
         assertEquals(1, result.getId());
+        assertEquals("hasan", result.getUsername());
         assertEquals(40, result.getAge());
+        verify(employeeRepository, Mockito.times(1)).findById(id);
     }
 
     @Test
