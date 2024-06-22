@@ -2,6 +2,8 @@ package com.example.crud.service;
 
 import com.example.crud.model.Employee;
 import com.example.crud.repository.EmployeeRepository;
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,8 @@ public class EmployeeService {
     public Employee findEmployeeById(Long id) {
         Optional<Employee> employee = employeeRepository.findById(id);
         if(employee.isPresent()) {
+            Employee employee1 = employee.get();
+            employee1.setAge(employee1.getAge() * 2);
             return employee.get();
         }else {
             throw new RuntimeException("No employee for id: " + id);
@@ -41,4 +45,14 @@ public class EmployeeService {
     public Employee updateEmployee(Employee employee) {
         return employeeRepository.save(employee);
     }
+
+    public int sum(int number1, int number2) {
+        return number1 + number2;
+    }
+
+    public int calculateAge(LocalDate playerBirthDate) {
+        LocalDate localDate = LocalDate.now();
+        return Period.between(playerBirthDate, localDate).getYears();
+    }
+
 }
