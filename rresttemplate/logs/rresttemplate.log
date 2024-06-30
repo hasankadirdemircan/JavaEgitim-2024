@@ -1,0 +1,16 @@
+2024-06-30T10:49:55.398+03:00  INFO 16231 --- [rresttemplate] [restartedMain] c.r.s.r.RresttemplateApplication         : Starting RresttemplateApplication using Java 22.0.1 with PID 16231 (/Users/hasankadirdemircan/Desktop/JavaEgitim-2024/rresttemplate/target/classes started by hasankadirdemircan in /Users/hasankadirdemircan/Desktop/JavaEgitim-2024/rresttemplate)
+2024-06-30T10:49:55.399+03:00  INFO 16231 --- [rresttemplate] [restartedMain] c.r.s.r.RresttemplateApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-06-30T10:49:55.438+03:00  INFO 16231 --- [rresttemplate] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-30T10:49:55.438+03:00  INFO 16231 --- [rresttemplate] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-30T10:49:56.106+03:00  INFO 16231 --- [rresttemplate] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-30T10:49:56.113+03:00  INFO 16231 --- [rresttemplate] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-30T10:49:56.113+03:00  INFO 16231 --- [rresttemplate] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-30T10:49:56.134+03:00  INFO 16231 --- [rresttemplate] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-30T10:49:56.135+03:00  INFO 16231 --- [rresttemplate] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 697 ms
+2024-06-30T10:49:56.429+03:00  INFO 16231 --- [rresttemplate] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-30T10:49:56.444+03:00  INFO 16231 --- [rresttemplate] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-30T10:49:56.451+03:00  INFO 16231 --- [rresttemplate] [restartedMain] c.r.s.r.RresttemplateApplication         : Started RresttemplateApplication in 1.341 seconds (process running for 1.589)
+2024-06-30T10:50:39.061+03:00  INFO 16231 --- [rresttemplate] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-30T10:50:39.062+03:00  INFO 16231 --- [rresttemplate] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-30T10:50:39.065+03:00  INFO 16231 --- [rresttemplate] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-30T10:50:39.089+03:00  INFO 16231 --- [rresttemplate] [http-nio-8080-exec-1] c.r.s.r.service.PlaceHolderService       : fetching all post list
